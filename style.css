@@ -78,7 +78,8 @@ a {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+
   margin-top: 1.6rem;
 }
 
@@ -94,11 +95,16 @@ a {
   background-color: #1864ab;
   border: none;
   border-radius: 3px;
+  transition: all 0.3s;
+  color: #e7f5ff;
+  cursor: pointer;
 }
-.button a {
-  color: #f8f9fa;
+.button:hover {
+  background-color: #74c0fc;
 }
-
+.login-text {
+  color: #1864ab;
+}
 .line-break-text {
   display: flex;
   gap: 1.6rem;
